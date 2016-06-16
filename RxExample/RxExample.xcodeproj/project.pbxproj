@@ -1910,12 +1910,20 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Krunoslav Zaher";
 				TargetAttributes = {
+					C8297E2D1B6CF905000589EA = {
+						LastSwiftMigration = 0800;
+					};
 					C83366DC1AD0293800C668A7 = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0800;
 					};
 					C849EF601C3190360048AC4A = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = C83366DC1AD0293800C668A7;
+					};
+					C88BB8B91B07E6C90064D411 = {
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -2595,6 +2603,7 @@
 				PRODUCT_NAME = "RxExample-iOS-no-module";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = ../RxCocoa/RxCocoa.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2610,6 +2619,7 @@
 				PRODUCT_NAME = "RxExample-iOS-no-module";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = ../RxCocoa/RxCocoa.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -2625,6 +2635,7 @@
 				PRODUCT_NAME = "RxExample-iOS-no-module";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = ../RxCocoa/RxCocoa.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = "Release-Tests";
 		};
@@ -2729,6 +2740,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "RxExample-iOS";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2743,6 +2755,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "RxExample-iOS";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -2758,6 +2771,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kzaher.RxExample-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxExample-iOS.app/RxExample-iOS";
 			};
 			name = Debug;
@@ -2774,6 +2788,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kzaher.RxExample-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxExample-iOS.app/RxExample-iOS";
 			};
 			name = Release;
@@ -2790,6 +2805,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kzaher.RxExample-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxExample-iOS.app/RxExample-iOS";
 			};
 			name = "Release-Tests";
@@ -2804,6 +2820,7 @@
 				OTHER_LDFLAGS = "-objc_loadall";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2817,6 +2834,7 @@
 				OTHER_LDFLAGS = "-objc_loadall";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -2873,6 +2891,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "RxExample-iOS";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 			};
 			name = "Release-Tests";
 		};
@@ -2886,6 +2905,7 @@
 				OTHER_LDFLAGS = "-objc_loadall";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 			};
 			name = "Release-Tests";
 		};
